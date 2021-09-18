@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A3475E2ABE24F1C4A93FB77 /* Pods_iOSLiveCodingExam1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFDDF16BE27699C2EF48016 /* Pods_iOSLiveCodingExam1Tests.framework */; };
+		6EFA78DCDA354C7387814630 /* Pods_iOSLiveCodingExam1_iOSLiveCodingExam1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0833FE41A5C039F94D789E1F /* Pods_iOSLiveCodingExam1_iOSLiveCodingExam1UITests.framework */; };
 		A6DD572F26F5B2DC0050CF87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD572E26F5B2DC0050CF87 /* AppDelegate.swift */; };
 		A6DD573126F5B2DC0050CF87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD573026F5B2DC0050CF87 /* SceneDelegate.swift */; };
 		A6DD573326F5B2DC0050CF87 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD573226F5B2DC0050CF87 /* DashboardViewController.swift */; };
@@ -20,6 +22,7 @@
 		A6DD576526F5C0D80050CF87 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD576426F5C0D80050CF87 /* Contact.swift */; };
 		A6DD576726F5C83F0050CF87 /* ExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD576626F5C83F0050CF87 /* ExamViewController.swift */; };
 		A6DD576A26F5C8550050CF87 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD576926F5C8550050CF87 /* TodoViewController.swift */; };
+		ADDA795E8188FA7FEAAEB8E4 /* Pods_iOSLiveCodingExam1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDBCD146BD7A6109F92E75B /* Pods_iOSLiveCodingExam1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BD96FA570F85CC869881CB /* Pods-iOSLiveCodingExam1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLiveCodingExam1.debug.xcconfig"; path = "Target Support Files/Pods-iOSLiveCodingExam1/Pods-iOSLiveCodingExam1.debug.xcconfig"; sourceTree = "<group>"; };
+		0833FE41A5C039F94D789E1F /* Pods_iOSLiveCodingExam1_iOSLiveCodingExam1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLiveCodingExam1_iOSLiveCodingExam1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A8489E86E7CBD9BA4EEF9C /* Pods-iOSLiveCodingExam1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLiveCodingExam1Tests.release.xcconfig"; path = "Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		30EFF8613DEAF3714D158D90 /* Pods-iOSLiveCodingExam1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLiveCodingExam1.release.xcconfig"; path = "Target Support Files/Pods-iOSLiveCodingExam1/Pods-iOSLiveCodingExam1.release.xcconfig"; sourceTree = "<group>"; };
+		76E654A13F2D1A24A31D20EC /* Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BDBCD146BD7A6109F92E75B /* Pods_iOSLiveCodingExam1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLiveCodingExam1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BACC32E18A63DCD7F022B4E /* Pods-iOSLiveCodingExam1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLiveCodingExam1Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6DD572B26F5B2DC0050CF87 /* iOSLiveCodingExam1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLiveCodingExam1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DD572E26F5B2DC0050CF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6DD573026F5B2DC0050CF87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +69,8 @@
 		A6DD576426F5C0D80050CF87 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		A6DD576626F5C83F0050CF87 /* ExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewController.swift; sourceTree = "<group>"; };
 		A6DD576926F5C8550050CF87 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		AFFDDF16BE27699C2EF48016 /* Pods_iOSLiveCodingExam1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLiveCodingExam1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E37968EC65F48B8B50D0A2 /* Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.release.xcconfig"; path = "Target Support Files/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDA795E8188FA7FEAAEB8E4 /* Pods_iOSLiveCodingExam1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A3475E2ABE24F1C4A93FB77 /* Pods_iOSLiveCodingExam1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EFA78DCDA354C7387814630 /* Pods_iOSLiveCodingExam1_iOSLiveCodingExam1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05878D71605343F9151E3344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BDBCD146BD7A6109F92E75B /* Pods_iOSLiveCodingExam1.framework */,
+				0833FE41A5C039F94D789E1F /* Pods_iOSLiveCodingExam1_iOSLiveCodingExam1UITests.framework */,
+				AFFDDF16BE27699C2EF48016 /* Pods_iOSLiveCodingExam1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45EA21C738BEFA222DE58247 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03BD96FA570F85CC869881CB /* Pods-iOSLiveCodingExam1.debug.xcconfig */,
+				30EFF8613DEAF3714D158D90 /* Pods-iOSLiveCodingExam1.release.xcconfig */,
+				76E654A13F2D1A24A31D20EC /* Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.debug.xcconfig */,
+				F1E37968EC65F48B8B50D0A2 /* Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.release.xcconfig */,
+				9BACC32E18A63DCD7F022B4E /* Pods-iOSLiveCodingExam1Tests.debug.xcconfig */,
+				13A8489E86E7CBD9BA4EEF9C /* Pods-iOSLiveCodingExam1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A6DD572226F5B2DC0050CF87 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +131,8 @@
 				A6DD574426F5B2DD0050CF87 /* iOSLiveCodingExam1Tests */,
 				A6DD574F26F5B2DD0050CF87 /* iOSLiveCodingExam1UITests */,
 				A6DD572C26F5B2DC0050CF87 /* Products */,
+				45EA21C738BEFA222DE58247 /* Pods */,
+				05878D71605343F9151E3344 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6DD575526F5B2DD0050CF87 /* Build configuration list for PBXNativeTarget "iOSLiveCodingExam1" */;
 			buildPhases = (
+				785971594303450DB925A17F /* [CP] Check Pods Manifest.lock */,
 				A6DD572726F5B2DC0050CF87 /* Sources */,
 				A6DD572826F5B2DC0050CF87 /* Frameworks */,
 				A6DD572926F5B2DC0050CF87 /* Resources */,
+				679F4E6F84C44ABBB09CF08C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6DD575826F5B2DD0050CF87 /* Build configuration list for PBXNativeTarget "iOSLiveCodingExam1Tests" */;
 			buildPhases = (
+				813569ABD00BD43DD4BC411B /* [CP] Check Pods Manifest.lock */,
 				A6DD573D26F5B2DD0050CF87 /* Sources */,
 				A6DD573E26F5B2DD0050CF87 /* Frameworks */,
 				A6DD573F26F5B2DD0050CF87 /* Resources */,
+				BB8A527225D57DC344A6420B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6DD575B26F5B2DD0050CF87 /* Build configuration list for PBXNativeTarget "iOSLiveCodingExam1UITests" */;
 			buildPhases = (
+				CC574EFDC3F2E472AF7826DF /* [CP] Check Pods Manifest.lock */,
 				A6DD574826F5B2DD0050CF87 /* Sources */,
 				A6DD574926F5B2DD0050CF87 /* Frameworks */,
 				A6DD574A26F5B2DD0050CF87 /* Resources */,
+				8CF46DB87240EDF925FE5BDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,6 +338,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		679F4E6F84C44ABBB09CF08C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1/Pods-iOSLiveCodingExam1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1/Pods-iOSLiveCodingExam1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1/Pods-iOSLiveCodingExam1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		785971594303450DB925A17F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSLiveCodingExam1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		813569ABD00BD43DD4BC411B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSLiveCodingExam1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF46DB87240EDF925FE5BDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8A527225D57DC344A6420B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC574EFDC3F2E472AF7826DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6DD572726F5B2DC0050CF87 /* Sources */ = {
@@ -477,7 +643,9 @@
 		};
 		A6DD575626F5B2DD0050CF87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BD96FA570F85CC869881CB /* Pods-iOSLiveCodingExam1.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,7 +663,9 @@
 		};
 		A6DD575726F5B2DD0050CF87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30EFF8613DEAF3714D158D90 /* Pods-iOSLiveCodingExam1.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,8 +683,9 @@
 		};
 		A6DD575926F5B2DD0050CF87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BACC32E18A63DCD7F022B4E /* Pods-iOSLiveCodingExam1Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSLiveCodingExam1Tests/Info.plist;
@@ -534,8 +705,9 @@
 		};
 		A6DD575A26F5B2DD0050CF87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A8489E86E7CBD9BA4EEF9C /* Pods-iOSLiveCodingExam1Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSLiveCodingExam1Tests/Info.plist;
@@ -555,8 +727,9 @@
 		};
 		A6DD575C26F5B2DD0050CF87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E654A13F2D1A24A31D20EC /* Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSLiveCodingExam1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -574,8 +747,9 @@
 		};
 		A6DD575D26F5B2DD0050CF87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E37968EC65F48B8B50D0A2 /* Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSLiveCodingExam1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
