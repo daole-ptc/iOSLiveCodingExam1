@@ -27,6 +27,10 @@ class SampleViewController: UIViewController, UITableViewDataSource, UITableView
     var contacts: [Contact] = []
     
     override func viewDidLoad() {
+
+    }
+    
+    @IBAction func onStart(button: UIBarButtonItem) {
         if let path = Bundle.main.path(forResource: "contacts", ofType: "json") {
             let data = try! Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
             let contactArray = try! JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as! [Dictionary<String, Any>]

@@ -42,7 +42,13 @@
                                 </constraints>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <navigationItem title="Sample" id="0kk-F7-3C7"/>
+                                    <navigationItem title="Sample" id="0kk-F7-3C7">
+                                        <barButtonItem key="rightBarButtonItem" title="Start" id="rLo-5I-IqX">
+                                            <connections>
+                                                <action selector="onStartWithButton:" destination="a1b-pb-HyJ" id="CTL-fg-Wa0"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ibContactTableView" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="b9X-Pp-0lv" userLabel="Contact Table View">
