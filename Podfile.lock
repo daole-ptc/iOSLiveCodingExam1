@@ -1,40 +1,21 @@
 PODS:
-  - Alamofire (5.4.3)
-  - RxBlocking (6.2.0):
-    - RxSwift (= 6.2.0)
-  - RxCocoa (6.2.0):
-    - RxRelay (= 6.2.0)
-    - RxSwift (= 6.2.0)
-  - RxRelay (6.2.0):
-    - RxSwift (= 6.2.0)
-  - RxSwift (6.2.0)
-  - RxTest (6.2.0):
-    - RxSwift (= 6.2.0)
+  - Kingfisher (7.0.0-beta.4)
 
 DEPENDENCIES:
-  - Alamofire (~> 5.4)
-  - RxBlocking (= 6.2.0)
-  - RxCocoa (= 6.2.0)
-  - RxSwift (= 6.2.0)
-  - RxTest (= 6.2.0)
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher.git`)
 
-SPEC REPOS:
-  trunk:
-    - Alamofire
-    - RxBlocking
-    - RxCocoa
-    - RxRelay
-    - RxSwift
-    - RxTest
+EXTERNAL SOURCES:
+  Kingfisher:
+    :git: https://github.com/onevcat/Kingfisher.git
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: 1897586f01041d6ddc025714be156aee2d79509d
+    :git: https://github.com/onevcat/Kingfisher.git
 
 SPEC CHECKSUMS:
-  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  RxBlocking: 0b29f7d2079109a8de49c411381bed7c33ef1eeb
-  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
-  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
-  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
-  RxTest: 0c692fa672b694373ba86d2b00033595297a2831
+  Kingfisher: 48c017bba70a03c45313228a469075b2c1c67a0d
 
-PODFILE CHECKSUM: 66b18994e9cc3519f0a30c9092a64385e23fc124
+PODFILE CHECKSUM: d981d528b54394acbbfa4d14ec70d28554492fe5
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

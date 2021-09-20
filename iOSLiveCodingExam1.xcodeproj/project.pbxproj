@@ -237,7 +237,6 @@
 				A6DD573D26F5B2DD0050CF87 /* Sources */,
 				A6DD573E26F5B2DD0050CF87 /* Frameworks */,
 				A6DD573F26F5B2DD0050CF87 /* Resources */,
-				BB8A527225D57DC344A6420B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -416,23 +415,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB8A527225D57DC344A6420B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CC574EFDC3F2E472AF7826DF /* [CP] Check Pods Manifest.lock */ = {

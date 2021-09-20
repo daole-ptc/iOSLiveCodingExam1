@@ -27,8 +27,6 @@ iOS Live Coding Exam 1
 - XCode: 12.5 or above
 - Cocoapod: 1.11.2 or above
 - Library is already set up:
-  + Alamofire: call API
-  + RxSwift: asynchronous programming
   + KingFisher: image loader 
 
 ## Exercise
