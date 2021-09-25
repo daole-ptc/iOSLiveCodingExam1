@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		2A3475E2ABE24F1C4A93FB77 /* Pods_iOSLiveCodingExam1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFDDF16BE27699C2EF48016 /* Pods_iOSLiveCodingExam1Tests.framework */; };
 		6EFA78DCDA354C7387814630 /* Pods_iOSLiveCodingExam1_iOSLiveCodingExam1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0833FE41A5C039F94D789E1F /* Pods_iOSLiveCodingExam1_iOSLiveCodingExam1UITests.framework */; };
+		A68AA9B126FED2CC00A3995D /* ExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68AA9AE26FED2CB00A3995D /* ExamViewController.swift */; };
+		A68AA9B226FED2CC00A3995D /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68AA9B026FED2CB00A3995D /* SampleViewController.swift */; };
+		A68AA9B726FED3C000A3995D /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68AA9B626FED3C000A3995D /* ContactListView.swift */; };
+		A68AA9B926FED3DB00A3995D /* ExamHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68AA9B826FED3DB00A3995D /* ExamHostingController.swift */; };
+		A68AA9BB26FED3E900A3995D /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68AA9BA26FED3E900A3995D /* ContactListViewModel.swift */; };
+		A68AA9BD26FED3FB00A3995D /* ContactListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68AA9BC26FED3FB00A3995D /* ContactListService.swift */; };
+		A68AA9BF26FEDB5C00A3995D /* ContactEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68AA9BE26FEDB5C00A3995D /* ContactEntity.swift */; };
 		A6DD572F26F5B2DC0050CF87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD572E26F5B2DC0050CF87 /* AppDelegate.swift */; };
 		A6DD573126F5B2DC0050CF87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD573026F5B2DC0050CF87 /* SceneDelegate.swift */; };
 		A6DD573326F5B2DC0050CF87 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD573226F5B2DC0050CF87 /* DashboardViewController.swift */; };
@@ -17,11 +24,7 @@
 		A6DD573B26F5B2DD0050CF87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DD573926F5B2DD0050CF87 /* LaunchScreen.storyboard */; };
 		A6DD574626F5B2DD0050CF87 /* iOSLiveCodingExam1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD574526F5B2DD0050CF87 /* iOSLiveCodingExam1Tests.swift */; };
 		A6DD575126F5B2DD0050CF87 /* iOSLiveCodingExam1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD575026F5B2DD0050CF87 /* iOSLiveCodingExam1UITests.swift */; };
-		A6DD576026F5BA7B0050CF87 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD575F26F5BA7B0050CF87 /* SampleViewController.swift */; };
 		A6DD576326F5BBA40050CF87 /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = A6DD576226F5BBA40050CF87 /* contacts.json */; };
-		A6DD576526F5C0D80050CF87 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD576426F5C0D80050CF87 /* Contact.swift */; };
-		A6DD576726F5C83F0050CF87 /* ExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD576626F5C83F0050CF87 /* ExamViewController.swift */; };
-		A6DD576A26F5C8550050CF87 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD576926F5C8550050CF87 /* TodoViewController.swift */; };
 		ADDA795E8188FA7FEAAEB8E4 /* Pods_iOSLiveCodingExam1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDBCD146BD7A6109F92E75B /* Pods_iOSLiveCodingExam1.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +53,13 @@
 		76E654A13F2D1A24A31D20EC /* Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BDBCD146BD7A6109F92E75B /* Pods_iOSLiveCodingExam1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLiveCodingExam1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BACC32E18A63DCD7F022B4E /* Pods-iOSLiveCodingExam1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLiveCodingExam1Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A68AA9AE26FED2CB00A3995D /* ExamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamViewController.swift; sourceTree = "<group>"; };
+		A68AA9B026FED2CB00A3995D /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		A68AA9B626FED3C000A3995D /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		A68AA9B826FED3DB00A3995D /* ExamHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamHostingController.swift; sourceTree = "<group>"; };
+		A68AA9BA26FED3E900A3995D /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		A68AA9BC26FED3FB00A3995D /* ContactListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListService.swift; sourceTree = "<group>"; };
+		A68AA9BE26FEDB5C00A3995D /* ContactEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEntity.swift; sourceTree = "<group>"; };
 		A6DD572B26F5B2DC0050CF87 /* iOSLiveCodingExam1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLiveCodingExam1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DD572E26F5B2DC0050CF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6DD573026F5B2DC0050CF87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,11 +74,7 @@
 		A6DD574C26F5B2DD0050CF87 /* iOSLiveCodingExam1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLiveCodingExam1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DD575026F5B2DD0050CF87 /* iOSLiveCodingExam1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLiveCodingExam1UITests.swift; sourceTree = "<group>"; };
 		A6DD575226F5B2DD0050CF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6DD575F26F5BA7B0050CF87 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		A6DD576226F5BBA40050CF87 /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
-		A6DD576426F5C0D80050CF87 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		A6DD576626F5C83F0050CF87 /* ExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewController.swift; sourceTree = "<group>"; };
-		A6DD576926F5C8550050CF87 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		AFFDDF16BE27699C2EF48016 /* Pods_iOSLiveCodingExam1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLiveCodingExam1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E37968EC65F48B8B50D0A2 /* Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.release.xcconfig"; path = "Target Support Files/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests/Pods-iOSLiveCodingExam1-iOSLiveCodingExam1UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +130,50 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A68AA9AD26FED2CB00A3995D /* tab2 */ = {
+			isa = PBXGroup;
+			children = (
+				A68AA9B526FED39900A3995D /* service */,
+				A68AA9B426FED38D00A3995D /* viewModel */,
+				A68AA9B326FED38400A3995D /* view */,
+				A68AA9AE26FED2CB00A3995D /* ExamViewController.swift */,
+				A68AA9B826FED3DB00A3995D /* ExamHostingController.swift */,
+			);
+			path = tab2;
+			sourceTree = "<group>";
+		};
+		A68AA9AF26FED2CB00A3995D /* tab1 */ = {
+			isa = PBXGroup;
+			children = (
+				A68AA9B026FED2CB00A3995D /* SampleViewController.swift */,
+			);
+			path = tab1;
+			sourceTree = "<group>";
+		};
+		A68AA9B326FED38400A3995D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A68AA9B626FED3C000A3995D /* ContactListView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A68AA9B426FED38D00A3995D /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A68AA9BA26FED3E900A3995D /* ContactListViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		A68AA9B526FED39900A3995D /* service */ = {
+			isa = PBXGroup;
+			children = (
+				A68AA9BC26FED3FB00A3995D /* ContactListService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
 		A6DD572226F5B2DC0050CF87 = {
 			isa = PBXGroup;
 			children = (
@@ -149,9 +199,9 @@
 		A6DD572D26F5B2DC0050CF87 /* iOSLiveCodingExam1 */ = {
 			isa = PBXGroup;
 			children = (
-				A6DD576826F5C8440050CF87 /* todo */,
+				A68AA9AF26FED2CB00A3995D /* tab1 */,
+				A68AA9AD26FED2CB00A3995D /* tab2 */,
 				A6DD576126F5BB540050CF87 /* data */,
-				A6DD575E26F5BA510050CF87 /* exam */,
 				A6DD572E26F5B2DC0050CF87 /* AppDelegate.swift */,
 				A6DD573026F5B2DC0050CF87 /* SceneDelegate.swift */,
 				A6DD573226F5B2DC0050CF87 /* DashboardViewController.swift */,
@@ -159,7 +209,6 @@
 				A6DD573726F5B2DD0050CF87 /* Assets.xcassets */,
 				A6DD573926F5B2DD0050CF87 /* LaunchScreen.storyboard */,
 				A6DD573C26F5B2DD0050CF87 /* Info.plist */,
-				A6DD575F26F5BA7B0050CF87 /* SampleViewController.swift */,
 			);
 			path = iOSLiveCodingExam1;
 			sourceTree = "<group>";
@@ -182,29 +231,13 @@
 			path = iOSLiveCodingExam1UITests;
 			sourceTree = "<group>";
 		};
-		A6DD575E26F5BA510050CF87 /* exam */ = {
-			isa = PBXGroup;
-			children = (
-				A6DD576626F5C83F0050CF87 /* ExamViewController.swift */,
-			);
-			path = exam;
-			sourceTree = "<group>";
-		};
 		A6DD576126F5BB540050CF87 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				A68AA9BE26FEDB5C00A3995D /* ContactEntity.swift */,
 				A6DD576226F5BBA40050CF87 /* contacts.json */,
-				A6DD576426F5C0D80050CF87 /* Contact.swift */,
 			);
 			path = data;
-			sourceTree = "<group>";
-		};
-		A6DD576826F5C8440050CF87 /* todo */ = {
-			isa = PBXGroup;
-			children = (
-				A6DD576926F5C8550050CF87 /* TodoViewController.swift */,
-			);
-			path = todo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +270,7 @@
 				A6DD573D26F5B2DD0050CF87 /* Sources */,
 				A6DD573E26F5B2DD0050CF87 /* Frameworks */,
 				A6DD573F26F5B2DD0050CF87 /* Resources */,
+				6F7266042B5C6449303B39AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,6 +390,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1/Pods-iOSLiveCodingExam1-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6F7266042B5C6449303B39AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSLiveCodingExam1Tests/Pods-iOSLiveCodingExam1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		785971594303450DB925A17F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,13 +497,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68AA9BD26FED3FB00A3995D /* ContactListService.swift in Sources */,
+				A68AA9BB26FED3E900A3995D /* ContactListViewModel.swift in Sources */,
 				A6DD573326F5B2DC0050CF87 /* DashboardViewController.swift in Sources */,
+				A68AA9B926FED3DB00A3995D /* ExamHostingController.swift in Sources */,
+				A68AA9B726FED3C000A3995D /* ContactListView.swift in Sources */,
+				A68AA9BF26FEDB5C00A3995D /* ContactEntity.swift in Sources */,
 				A6DD572F26F5B2DC0050CF87 /* AppDelegate.swift in Sources */,
-				A6DD576A26F5C8550050CF87 /* TodoViewController.swift in Sources */,
-				A6DD576026F5BA7B0050CF87 /* SampleViewController.swift in Sources */,
-				A6DD576526F5C0D80050CF87 /* Contact.swift in Sources */,
+				A68AA9B226FED2CC00A3995D /* SampleViewController.swift in Sources */,
 				A6DD573126F5B2DC0050CF87 /* SceneDelegate.swift in Sources */,
-				A6DD576726F5C83F0050CF87 /* ExamViewController.swift in Sources */,
+				A68AA9B126FED2CC00A3995D /* ExamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

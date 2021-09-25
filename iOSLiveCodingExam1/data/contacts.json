@@ -1,30 +1,226 @@
 [
     {
-        "id": 1,
-        "name": "Nguyễn Thành Chung",
-        "company": "codesundar.com",
-        "avatar": "https://i.pravatar.cc/200",
-        "language": "vi"
+        "gender": "female",
+        "name": {
+            "title": "Mademoiselle",
+            "first": "Sylvia",
+            "last": "Blanchard"
+        },
+        "location": {
+            "street": {
+                "number": 4616,
+                "name": "Rue du Bât-D'Argent"
+            },
+            "city": "Kaiseraugst",
+            "state": "Zug",
+            "country": "Switzerland",
+            "postcode": 5138,
+            "coordinates": {
+                "latitude": "-49.8874",
+                "longitude": "122.4172"
+            },
+            "timezone": {
+                "offset": "-3:00",
+                "description": "Brazil, Buenos Aires, Georgetown"
+            }
+        },
+        "email": "sylvia.blanchard@example.com",
+        "login": {
+            "uuid": "e1d57c6f-66ec-431f-a283-f8b7517ff46c",
+            "username": "brownwolf579",
+            "password": "keller",
+            "salt": "y6Vmg9Ak",
+            "md5": "7e2b5ca3cdb9ddb2fb57d8560b972dc3",
+            "sha1": "71e6bbcaa1384ac72ec9162a21d62713f9f091bd",
+            "sha256": "3f08e6e0a1d6b6d2411e3531c6ba7d4aafe3672b0739b202352f5bc9971bb678"
+        },
+        "dob": {
+            "date": "1984-11-12T01:33:26.996Z",
+            "age": 37
+        },
+        "registered": {
+            "date": "2010-08-06T16:11:28.288Z",
+            "age": 11
+        },
+        "phone": "079 923 76 11",
+        "cell": "079 010 40 08",
+        "id": {
+            "name": "AVS",
+            "value": "756.1076.0055.39"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/33.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/33.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/33.jpg"
+        },
+        "nat": "CH"
     },
     {
-        "id": 2,
-        "name": "Priyaka",
-        "company": "HTML Foundation",
-        "avatar": "https://i.pravatar.cc/200",
-        "language": "en"
+        "gender": "female",
+        "name": {
+            "title": "Ms",
+            "first": "Aneita",
+            "last": "Porto"
+        },
+        "location": {
+            "street": {
+                "number": 3206,
+                "name": "Rua Vinte E Quatro de Outubro"
+            },
+            "city": "Itu",
+            "state": "Distrito Federal",
+            "country": "Brazil",
+            "postcode": 87643,
+            "coordinates": {
+                "latitude": "30.1733",
+                "longitude": "-132.1077"
+            },
+            "timezone": {
+                "offset": "+2:00",
+                "description": "Kaliningrad, South Africa"
+            }
+        },
+        "email": "aneita.porto@example.com",
+        "login": {
+            "uuid": "2d131610-c20b-4a00-996f-1e1ce85f63d8",
+            "username": "yellowostrich206",
+            "password": "yeahbaby",
+            "salt": "IJnzlSDr",
+            "md5": "9482220f29753e53ce7d1d9eff184913",
+            "sha1": "da7f2e1395efab8280cd63bccb98455bdfa3ab55",
+            "sha256": "b015362ee9a24ecd8b6772710007e23e5b37c28ac50ae066745f427822710906"
+        },
+        "dob": {
+            "date": "1987-02-10T03:05:05.433Z",
+            "age": 34
+        },
+        "registered": {
+            "date": "2002-06-25T11:36:59.452Z",
+            "age": 19
+        },
+        "phone": "(96) 9811-3225",
+        "cell": "(47) 4303-9169",
+        "id": {
+            "name": "",
+            "value": null
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/89.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/89.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/89.jpg"
+        },
+        "nat": "BR"
     },
     {
-        "id": 3,
-        "name": "Lê Văn Sơn",
-        "company": "codesundar.com",
-        "avatar": "https://i.pravatar.cc/200",
-        "language": "vi"
+        "gender": "female",
+        "name": {
+            "title": "Ms",
+            "first": "Claire",
+            "last": "Perez"
+        },
+        "location": {
+            "street": {
+                "number": 3397,
+                "name": "Pockrus Page Rd"
+            },
+            "city": "Indianapolis",
+            "state": "North Carolina",
+            "country": "United States",
+            "postcode": 11967,
+            "coordinates": {
+                "latitude": "12.3449",
+                "longitude": "-104.4471"
+            },
+            "timezone": {
+                "offset": "-5:00",
+                "description": "Eastern Time (US & Canada), Bogota, Lima"
+            }
+        },
+        "email": "claire.perez@example.com",
+        "login": {
+            "uuid": "63b74ffa-1c0e-4faf-8225-4387c7416e29",
+            "username": "saddog729",
+            "password": "punkin",
+            "salt": "RLcRQsBW",
+            "md5": "ce8ba60f9cb7e7980dc2c78c16b3c18c",
+            "sha1": "8cf697fd8393b2bb02bf87e8d79093a79634724e",
+            "sha256": "61c8085290c072af190bc8d55a7495df74b022a5de1c1ba0f99cf7b17c671423"
+        },
+        "dob": {
+            "date": "1962-07-10T23:07:01.305Z",
+            "age": 59
+        },
+        "registered": {
+            "date": "2014-01-20T08:36:49.482Z",
+            "age": 7
+        },
+        "phone": "(056)-570-3162",
+        "cell": "(135)-730-9042",
+        "id": {
+            "name": "SSN",
+            "value": "518-88-7507"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/91.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/91.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/91.jpg"
+        },
+        "nat": "US"
     },
     {
-        "id": 4,
-        "name": "Sundaraavel",
-        "company": "codesundar.com",
-        "avatar": "https://i.pravatar.cc/200",
-        "language": "en"
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Arttu",
+            "last": "Couri"
+        },
+        "location": {
+            "street": {
+                "number": 8487,
+                "name": "Hermiankatu"
+            },
+            "city": "Punkaharju",
+            "state": "Kainuu",
+            "country": "Finland",
+            "postcode": 40027,
+            "coordinates": {
+                "latitude": "89.9836",
+                "longitude": "167.4475"
+            },
+            "timezone": {
+                "offset": "+9:30",
+                "description": "Adelaide, Darwin"
+            }
+        },
+        "email": "arttu.couri@example.com",
+        "login": {
+            "uuid": "b3bb35a6-a0b9-40ba-86cb-b2b5af08a9b1",
+            "username": "ticklishduck982",
+            "password": "sweet",
+            "salt": "NbWYYz2x",
+            "md5": "bbb1cb1d292e24df5b8a823fb83dbe14",
+            "sha1": "47f9b910c0f45b877bcab6e0f8ddd83d35946048",
+            "sha256": "76000b610e6ac4493468c738c15f588526972ffd964c3c2c72c636c915eaeff2"
+        },
+        "dob": {
+            "date": "1954-12-13T02:03:15.026Z",
+            "age": 67
+        },
+        "registered": {
+            "date": "2017-06-18T09:00:14.047Z",
+            "age": 4
+        },
+        "phone": "09-316-760",
+        "cell": "045-151-31-44",
+        "id": {
+            "name": "HETU",
+            "value": "NaNNA695undefined"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/99.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/99.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/99.jpg"
+        },
+        "nat": "FI"
     }
-  ]
+]

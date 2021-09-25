@@ -10,21 +10,21 @@ import UIKit
 class ContactItemCell: UITableViewCell {
     @IBOutlet weak var ibAvatar: UIImageView!
     @IBOutlet weak var ibName: UILabel!
-    @IBOutlet weak var ibCompany: UILabel!
+    @IBOutlet weak var ibAddress: UILabel!
     
-    func updateView(_ contact: Contact) {
+    func updateView(_ contact: ContactEntity) {
         let url = URL(string: contact.avatar)
         let data = try? Data(contentsOf: url!)
         ibAvatar.image = UIImage(data: data!)
-        ibName.text = contact.name
-        ibCompany.text = contact.company
+        ibName.text = "\(contact.firstName) \(contact.lastName)"
+        ibAddress.text = "\(contact.street), \(contact.city), \(contact.state), \(contact.country)"
     }
 }
 
 class SampleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var ibContactTableView: UITableView!
     
-    var contacts: [Contact] = []
+    var contacts: [ContactEntity] = []
     
     override func viewDidLoad() {
 
@@ -35,7 +35,7 @@ class SampleViewController: UIViewController, UITableViewDataSource, UITableView
             let data = try! Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
             let contactArray = try! JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as! [Dictionary<String, Any>]
             for dic in contactArray {
-                let contact = Contact(dictionary: dic)
+                let contact = ContactEntity(dictionary: dic)
                 contacts.append(contact)
             }
             ibContactTableView.reloadData()

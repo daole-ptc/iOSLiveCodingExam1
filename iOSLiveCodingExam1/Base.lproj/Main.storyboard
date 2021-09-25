@@ -16,8 +16,22 @@
                     <view key="view" contentMode="scaleToFill" id="XzT-gB-ItM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Iu-wU-3mz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <connections>
+                                    <segue destination="m69-s9-AIg" kind="embed" id="9fa-2o-MDb"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Wof-2O-zmA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Iu-wU-3mz" firstAttribute="leading" secondItem="Wof-2O-zmA" secondAttribute="leading" id="Kb3-c0-Fln"/>
+                            <constraint firstAttribute="bottom" secondItem="6Iu-wU-3mz" secondAttribute="bottom" id="Oth-i0-sOb"/>
+                            <constraint firstItem="6Iu-wU-3mz" firstAttribute="top" secondItem="XzT-gB-ItM" secondAttribute="top" id="hLT-Zy-1Z2"/>
+                            <constraint firstItem="Wof-2O-zmA" firstAttribute="trailing" secondItem="6Iu-wU-3mz" secondAttribute="trailing" id="jth-TQ-9Qs"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Exam" image="exam" selectedImage="exam" id="RpK-31-WNY">
                         <color key="badgeColor" name="AccentColor"/>
@@ -25,7 +39,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NpW-Iu-DwG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-17" y="907"/>
+            <point key="canvasLocation" x="594" y="911"/>
+        </scene>
+        <!--Exam Hosting Controller-->
+        <scene sceneID="MeN-l3-MVm">
+            <objects>
+                <hostingController id="m69-s9-AIg" customClass="ExamHostingController" customModule="iOSLiveCodingExam1" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K2X-L3-s8l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593" y="1629"/>
         </scene>
         <!--Sample View Controller-->
         <scene sceneID="AsR-4A-Wsf">
@@ -74,9 +96,9 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2y-s6-Ect">
-                                                    <rect key="frame" x="92" y="58.5" width="276.5" height="17.5"/>
-                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2y-s6-Ect">
+                                                    <rect key="frame" x="92" y="61" width="276.5" height="15"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
                                                     <color key="textColor" systemColor="systemGrayColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -94,8 +116,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="ibAddress" destination="F2y-s6-Ect" id="h8i-lM-ead"/>
                                             <outlet property="ibAvatar" destination="dWx-XU-Uif" id="NDJ-y5-qwE"/>
-                                            <outlet property="ibCompany" destination="F2y-s6-Ect" id="We5-GM-DJE"/>
                                             <outlet property="ibName" destination="v4t-LW-NVf" id="8WT-Aa-99z"/>
                                         </connections>
                                     </tableViewCell>
@@ -125,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0U2-Db-KI1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-981.15942028985512" y="906.69642857142856"/>
+            <point key="canvasLocation" x="-577" y="912"/>
         </scene>
         <!--Dashboard Controller-->
         <scene sceneID="lVA-yg-SAo">
@@ -139,33 +161,15 @@
                     <connections>
                         <segue destination="a1b-pb-HyJ" kind="relationship" relationship="viewControllers" id="xPV-WW-wo2"/>
                         <segue destination="Gvd-tX-Zgl" kind="relationship" relationship="viewControllers" id="peW-TJ-uxg"/>
-                        <segue destination="9Qs-ey-Mb0" kind="relationship" relationship="viewControllers" id="hTL-T9-WDe"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6z9-Y4-s0e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-17" y="173"/>
         </scene>
-        <!--To Do-->
-        <scene sceneID="vhQ-7t-tF3">
-            <objects>
-                <viewController id="9Qs-ey-Mb0" customClass="TodoViewController" customModule="iOSLiveCodingExam1" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ozR-Ur-czk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="EUK-6F-rKr"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="To Do" image="todo" selectedImage="todo" id="QEW-Eo-DBD"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="V34-JN-kf4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="816" y="907"/>
-        </scene>
     </scenes>
     <resources>
         <image name="exam" width="23" height="23"/>
-        <image name="todo" width="22" height="23"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

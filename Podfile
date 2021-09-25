@@ -8,9 +8,13 @@ target 'iOSLiveCodingExam1' do
   # Pods for iOSLiveCodingExam1
   
   pod 'Kingfisher', :git => 'https://github.com/onevcat/Kingfisher.git'
+  pod 'RxSwift', '6.2.0'
+  pod 'RxCocoa', '6.2.0'
 
   target 'iOSLiveCodingExam1Tests' do
     inherit! :search_paths
+    pod 'RxBlocking', '6.2.0'
+    pod 'RxTest', '6.2.0'
     # Pods for testing
   end
 
