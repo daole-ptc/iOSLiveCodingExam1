@@ -51,6 +51,7 @@ App has 2 tabs:
 <img src="./basic.gif" width="300" alt="Basic" />
 
 In **tab 2**, rebuild the contact list with required:
+### Structure & build layout
 - Use and refactor the current **MVVM** model in **tab 2**
 - Use **SwiftUI**
 - Use **Combine** or **RxSwift** to build asynchronous 
@@ -58,5 +59,10 @@ In **tab 2**, rebuild the contact list with required:
 - Build one more screen Contact Detail (with defined UI) and navigate from list to detail
 - The `avatar` image on screen must be `lazy loading` with `placeholder`
 
+### Unit Test
 - Show age-class `young` `middle-age` `old`
 - Write **unit test** for the function to get `age-class` 
+
+### Local Storage & Caching
+- Update `Start` button to `Refresh` button in case the list is loaded. Touch on `Refresh` button, call API and reload the contact list
+- Cache the contact list in `2 minutes`, don't all API if cache data still is valid, even relaunch the app
