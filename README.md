@@ -48,7 +48,7 @@ App has 2 tabs:
 
 2. Rebuild
 
-<img src="./basic.gif" width="300" alt="Basic" />
+<img src="./exam.gif" width="300" alt="Basic" />
 
 In **tab 2**, rebuild the contact list with required:
 ### Structure & build layout
