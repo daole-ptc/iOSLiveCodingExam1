@@ -34,7 +34,9 @@ class ContactEntity {
         self.country = locationDic["country"] as! String
         
         let dobDic = dic["dob"] as! Dictionary<String, Any>
-        self.birthday = ISO8601DateFormatter().date(from: dobDic["date"] as! String)
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        self.birthday = dateFormatter.date(from: dobDic["date"] as! String)
         
         let pictureDic = dic["picture"] as! Dictionary<String, Any>
         self.avatar = pictureDic["medium"] as! String
