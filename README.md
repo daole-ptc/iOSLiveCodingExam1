@@ -60,9 +60,22 @@ In **tab 2**, rebuild the contact list with required:
 - The `avatar` image on screen must be `lazy loading` with `placeholder`
 
 ### Unit Test
-- Show age-class `young` `middle-age` `old`
-- Write **unit test** for the function to get `age-class` 
+- Show age-class `young` `middle-age` `old` with conditions:
+  + `young`: age < 30
+  + `middle-age`: age >= 30 && age < 60
+  + `old`: age >= 60
+- Write **unit test** for the function to identify `age-class` 
 
 ### Local Storage & Caching
 - Update `Start` button to `Refresh` button in case the list is loaded. Touch on `Refresh` button, call API and reload the contact list
 - Cache the contact list in `2 minutes`, don't all API if cache data still is valid, even relaunch the app
+
+### Screenshots
+
+1. Refactor
+
+<img src="./sample.png" width="300" alt="Sample" />
+
+2. Rebuild
+
+<img src="./exam.png" width="900" alt="Exam" />
